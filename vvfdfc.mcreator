@@ -1,0 +1,72 @@
+{
+  "mod_elements": [
+    {
+      "name": "WaterBottleWithWaterPlants",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bottle_with_water_plants"
+    },
+    {
+      "name": "WaterBottleWithWaterPlantsDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bottle_with_water_plants_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.vvfdfc.water_bottle_with_water_plants": "Water Bottle With Water Plants"
+    },
+    "zh_cn": {
+      "item.vvfdfc.water_bottle_with_water_plants": "装有水草的水瓶"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "vvfdfc",
+    "modName": "vvfdfc",
+    "version": "1.0.0",
+    "author": "tengmingxia, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.vvfdfc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}
